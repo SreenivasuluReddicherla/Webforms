@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphy - Create and Monetize Online Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f0f0ff, #e6ffe6);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        .signup-btn {
+            background-color: #2d2d5f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 50px;
+            justify-content: space-between;
+        }
+        .product-section {
+            flex: 1;
+            background-color: #f0f0ff;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .product-item {
+            margin-bottom: 20px;
+        }
+        .product-item h3 {
+            display: flex;
+            align-items: center;
+        }
+        .product-item h3::before {
+            content: '►';
+            margin-right: 10px;
+        }
+        .product-item.active h3::before {
+            content: '▼';
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .button.primary {
+            background-color: #2d2d5f;
+            color: white;
+        }
+        .button.secondary {
+            border: 1px solid #2d2d5f;
+            color: #2d2d5f;
+        }
+        .image-section {
+            flex: 1;
+            margin-left: 50px;
+        }
+        .image-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .graphy-assist {
+            margin-top: 50px;
+            padding: 50px;
+            background-color: #e6ffe6;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .graphy-assist-content {
+            flex: 1;
+        }
+        .graphy-assist-image {
+            flex: 1;
+            margin-left: 50px;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .feature-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .feature-list li::before {
+            content: '•';
+            color: #4CAF50;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">GRAPHY</div>
+        <nav>
+            <a href="#">Products</a>
+            <a href="#">Features</a>
+            <a href="#">Stories</a>
+            <a href="#">Pricing</a>
+            <a href="#" class="signup-btn">Sign up</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product-section">
+            <div class="product-item">
+                <h3>Courses</h3>
+            </div>
+            <div class="product-item active">
+                <h3>Membership</h3>
+                <p>Foster a community of devoted fans and unlock the advantages of recurring revenue by creating your own membership site!</p>
+                <a href="#" class="button primary">Get started</a>
+                <a href="#" class="button secondary">Learn more ></a>
+            </div>
+            <div class="product-item">
+                <h3>Webinars</h3>
+            </div>
+            <div class="product-item">
+                <h3>Digital Products</h3>
+            </div>
+            <div class="product-item">
+                <h3>Telegram community</h3>
+            </div>
+        </div>
+        <div class="image-section">
+            <div class="image-container">
+                <!-- Replace with actual image -->
+                <img src="setup-image.jpg" alt="Set up interface">
+            </div>
+        </div>
+    </main>
+    <section class="graphy-assist">
+        <div class="graphy-assist-content">
+            <h2>Earn more with Graphy Assist</h2>
+            <p>Supercharge your business with automation tools and earn up to 10% more effortlessly.</p>
+            <ul class="feature-list">
+                <li>Drive more traffic with SEO-optimized websites</li>
+                <li>Build trust & create urgency with social proof & offers</li>
+                <li>Maximize conversions with automated funnels & reminders</li>
+            </ul>
+            <a href="#" class="button primary">Start now</a>
+            <a href="#" class="button secondary">Learn more ></a>
+        </div>
+        <div class="graphy-assist-image">
+            <!-- Replace with actual image -->
+            <img src="graphy-assist-image.jpg" alt="Graphy Assist features">
+        </div>
+    </section>
+</body>
+</html>

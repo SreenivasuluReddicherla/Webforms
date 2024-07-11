@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphy - Monetize your Webinars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        .signup-btn {
+            background-color: #2d2d5f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 50px;
+        }
+        .content {
+            flex: 1;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 0;
+        }
+        h1 span {
+            color: #ff6347;
+        }
+        p {
+            font-size: 18px;
+            max-width: 600px;
+        }
+        .cta-buttons {
+            margin-top: 20px;
+        }
+        .cta-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .get-started {
+            background-color: #2d2d5f;
+            color: white;
+        }
+        .book-demo {
+            border: 1px solid #2d2d5f;
+            color: #2d2d5f;
+        }
+        .image-section {
+            flex: 1;
+            position: relative;
+        }
+        .image-container {
+            background-color: #f0f0ff;
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+        }
+        .image-container img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">GRAPHY</div>
+        <nav>
+            <a href="#">Products</a>
+            <a href="#">Features</a>
+            <a href="#">Stories</a>
+            <a href="#">Pricing</a>
+            <a href="#" class="signup-btn">Sign up</a>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <h1>Monetize your <span>Webinars</span></h1>
+            <p>Create and sell online courses, PDFs, links, host webinars, build communities, and launch your own website & mobile app all on one powerful and scalable platform</p>
+            <div class="cta-buttons">
+                <a href="#" class="get-started">Get started</a>
+                <a href="#" class="book-demo">Book a demo</a>
+            </div>
+            <p><small>No starting fees - get started in just 2 minutes</small></p>
+            <p><small>150,000+ creators empowered</small></p>
+        </div>
+        <div class="image-section">
+            <div class="image-container">
+                <!-- Replace with actual image and add decorative elements -->
+                <img src="placeholder-image.jpg" alt="Webinar illustration">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
